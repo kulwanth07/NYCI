@@ -1,0 +1,213 @@
+body {
+  text-align: center;
+}
+p {
+  color: #000;
+  margin-bottom: 0;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 20px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Do Hyeon", sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: #3f3f44;
+}
+h2 {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
+}
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 2rem;
+}
+
+.container-section {
+  padding: 1% 3%;
+}
+
+/*sections*/
+
+.colored-part {
+  background-color: #00bcd4;
+  color: ivory;
+}
+.white {
+  background-color: #b2ebf2;
+}
+
+.navbar {
+  padding: 0 0 1.5rem;
+  margin-bottom: 1px;
+}
+.navbar-brand {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0px 15px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Scada", sans-serif;
+}
+
+/* section2 */
+.person1 {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+@media (max-width: 1028px) {
+  .p1 {
+    width: 85px;
+    height: 120px;
+    border-radius: 5px;
+  }
+  .pa1 {
+    font-size: 15px;
+  }
+  .myButton {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .n1 {
+    width: 250px;
+  }
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  font-family: "Ubuntu Mono", sans-serif;
+}
+th {
+  font-weight: bold;
+}
+
+/* buttons */
+/* .responsive-buttons {
+  text-align: center;
+}
+.button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  height: 135px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  padding: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.btn {
+  background: #0077b5;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  text-overflow: ellipsis;
+  transition: 0.2s box-shadow ease-in-out, 0.2s background-color ease-in-out;
+  white-space: nowrap;
+  padding: 1.4em 2em;
+}
+
+.fa-linkedin {
+  padding-right: 7px;
+  font-size: 16px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.btn-small-screen {
+  border-radius: 50%;
+}
+.fa-linkedin {
+  padding: 0;
+  font-size: 20px;
+  height: 20px;
+  width: 20x;
+}
+
+@media all and (max-width: 800px) {
+  .button-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+.myButton {
+  box-shadow: 0px 0px 0px 0px #fff;
+  background-color: transparent;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 19px;
+  padding: 20px 50px;
+  text-decoration: none;
+  margin: 5% 5% 5% 0%;
+  width: 19%;
+}
+.myButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* footer */
+.foot {
+  margin-top: 50px;
+}
+.foot p {
+  color: #fff;
+}
+.list-inlin {
+  color: #fff;
+  size: 60px;
+}
+
+.social:hover {
+  cursor: pointer;
+  color: #00005c;
+}
+.social1:hover {
+  cursor: pointer;
+  color: #08d9d6;
+}
+.social2:hover {
+  cursor: pointer;
+  color: #d72323;
+}
